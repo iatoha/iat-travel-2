@@ -36,7 +36,7 @@ nav li a{
   font-size: 18px;
   font-weight: 500;
 }
-.img-nav{
+.nav-img{
   width: 48px;
   height: 56.008px;
   margin-top: 25px;
@@ -51,7 +51,7 @@ nav li a{
   font-size: 36px;
   font-weight: 800;
 }
-.img-40071{
+.first-img{
   display: flex;
   gap: 17px;
 }
@@ -64,18 +64,18 @@ nav li a{
 
 /* Main Related style */
 
-/* Section-1 Reladet style */
-.section-1{
+/* explore section style */
+.exp-section{
   margin: 0 auto;
   margin-top: 50px;
 }
-.banner{
+.exp-banner{
   background-image: url(../Images/Group\ 13.png);
   height: 500px;
   border-radius: 16px;
   
 }
-.backround-image-1{}
+.exp-image-1{}
 .explore{
   color: #FFF;
   font-size: 64px;
@@ -84,7 +84,7 @@ nav li a{
   position: relative;
   top: 106px;
 }
-.dolor{
+.exp-dis{
   width: 676px;
   color: #FFF;
   text-align: center;
@@ -150,12 +150,12 @@ nav li a{
 
 /* Section-2 related style */
 
-.section-2{
+.popular-section{
   display: flex;
   margin-top: 100px;
   gap: 50px;
 }
-.section-title{
+.popular-title{
   color: #131318;
   font-size: 40px;
   margin: 0;
@@ -173,10 +173,10 @@ nav li a{
   font-size: 16px;
   margin-top: 24px;
 }
-.li{
+.li {
   margin-top: 30px;
 }
-.ph-1{
+.popular-1{
   width: 530px;
   color: #5A5A5D;
   font-size: 16px;
@@ -189,7 +189,7 @@ nav li a{
   background: #FF5400;
   border: none;
 }
-.read{
+.more{
   margin-top: 50px;
 }
 .read-more{
@@ -199,9 +199,9 @@ nav li a{
   font-weight: 800;background-color: none;
 }
 
-/* Section-3 related style */
+/* choose section style */
 
-.section-3{
+.choose-section{
   margin-top: 100px;
 }
 .destination{
@@ -209,7 +209,7 @@ nav li a{
   text-align: center;
   font-size: 40px;
 }
-.destination-paragraph{
+.destination-dis{
   width: 643px;
   color: rgba(19, 19, 24, 0.70);
   text-align: center;
@@ -220,23 +220,23 @@ nav li a{
 }
 
 /* rectangle related style */
-.re-5{
+.rectangle-5{
   width: 573px;
   height: 300px;
 }
-.re-8{
+.rectangle-8{
   width: 573px;
   height: 300px;
 }
-.re-6{
+.rectangle-6{
   width: 374px;
   height: 286px;
 }
-.re-7{
+.rectangle-7{
   width: 474px;
   height: 286px;
 }
-.re-9{
+.rectangle-9{
   width: 274px;
   height: 286px;
 }
@@ -244,7 +244,7 @@ nav li a{
   width: 673px;
   height: 300px;
 }
-.re-11{
+.rectangle-11{
   width: 473px;
   height: 300px;
 }
@@ -319,11 +319,11 @@ nav li a{
   left: 745px;
 }
 
-/* Section-4 related style */
-.section-4{
+/* why chose us Section style */
+.why-chose-section{
   margin-top: -400px;
 }
-.card{
+.card-2{
   width: 573px;
   height: 284px;
   flex-shrink: 0;
@@ -336,7 +336,7 @@ nav li a{
   text-align: center;
   font-size: 40px;
 }
-.destination-paragraph-1{
+.why-choose-dis{
   width: 643px;
   color: rgba(19, 19, 24, 0.70);
   text-align: center;
@@ -345,16 +345,16 @@ nav li a{
   bottom: 25px;
   padding: 0px 20px 0 270px;
 }
-.care-1-2{
+.card-1{
   display: flex;
   gap: 24px;
 }
-.icon{
+.icon-img{
   width: 64px;
   height: 64px;
   padding: 32px 0 0 32px;
 }
-.card-stats{
+.card-stat{
   color: #131318;
   font-size: 24px;
   font-weight: 800;
@@ -385,8 +385,8 @@ nav li a{
   position: relative;
   left: 300px;
 }
-/* Deal-Discoution relsted style */
-.Deal-Discoution{
+/* Deal-Discount  style */
+.deal-discoution{
   margin-top: 100px;
 }
 .destination-2{
@@ -498,17 +498,17 @@ nav li a{
   position: relative;
   left: 500px;
 }
-/* section-5 related style */
-.section-5{
+/* simple perfect section style */
+.simple-section{
   display: flex;
   margin-top: 100px;
 }
-.a-simple{
+.simple-1{
   width: 448px;
   color: #131318;
   font-size: 40px;
 }
-.a-simple-p{
+.simple-p{
   width: 532px;
   color: #5A5A5D;
   font-size: 16px;
@@ -530,8 +530,8 @@ nav li a{
   background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
 
-/* section-6 related style */
-.section-6{
+/* newsletter section style */
+.newsletter-section{
   display: flex;
   margin-top: 100px;
   gap: 25px;
@@ -623,7 +623,7 @@ nav li a{
   font-weight: 800;
   text-align: center;
 }
-.watch{
+.watch-our{
   position: relative;
   right: 430px;
   top: 170px;
@@ -725,7 +725,7 @@ nav li a{
   body{
       width: 375px;
   }
-  .section-1{
+  .exp-section{
   }
   .banner{
       width: 335px;
@@ -738,7 +738,7 @@ nav li a{
       margin-top: 50px;
       flex-direction: column;
   }
-  .ul{
+  .ul-li{
       width: 335px;
       display: block;
   }
@@ -752,7 +752,7 @@ nav li a{
       position: relative;
       top: 50px;
   }
-  .dolor {
+  .exp-dis {
       width: 304px;
       color: #FFF;
       font-size: 14px;
@@ -778,7 +778,7 @@ nav li a{
       margin-top: 24px;
       margin-bottom: 24px;
   }
-  .section-title {
+  .popular-title {
       font-size: 20px;
   }
   .list {
@@ -794,13 +794,13 @@ nav li a{
       bottom: 0px;
       top: 0px;
   }
-  .ph-1 {
+  .popular-1 {
       width: 335px;
       color: #5A5A5D;
       font-size: 14px;
       margin-top: 25px;
   }
-  .section-2{
+  .popular-section{
       display: block;
       width: 335px;
   }
@@ -820,7 +820,7 @@ nav li a{
       color: #131318;
       font-size: 20px;
   }
-  .destination-paragraph {
+  .destination-dis {
       width: 335px;
       color: rgba(19, 19, 24, 0.70);
       text-align: center;
@@ -829,7 +829,7 @@ nav li a{
       bottom: 25px;
       left: 0px;
   }
-  .re-5 {
+  .rectangle-5 {
       width: 335px;
       height: 176px;
   }
@@ -905,27 +905,27 @@ nav li a{
   .row-3{
       display: block;
   }
-  .re-8 {
+  .rectangle-8 {
       width: 335px;
       height: 175.393px;
       flex-shrink: 0;
   }
-  .re-6 {
+  .rectangle-6 {
       width: 335px;
       height: 175.393px;
       flex-shrink: 0;
   }
-  .re-7 {
+  .rectangle-7 {
       width: 335px;
       height: 175.393px;
       flex-shrink: 0;
   }
-  .re-9 {
+  .rectangle-9 {
       width: 335px;
       height: 175.393px;
       flex-shrink: 0;
   }
-  .re-11 {
+  .rectangle-11 {
       width: 335px;
       height: 175.393px;
       flex-shrink: 0;
@@ -945,7 +945,7 @@ nav li a{
       text-align: center;
       font-size: 20px;
   }
-  .destination-paragraph-1 {
+  .why-choose-dis {
       width: 309px;
       color: rgba(19, 19, 24, 0.70);
       text-align: center;
@@ -954,7 +954,7 @@ nav li a{
       bottom: 25px;
       padding: 20px 0px 0px 15px;
   }
-  .card {
+  .card-2 {
       width: 335px;
   height: 289px;
   flex-shrink: 0;
@@ -962,12 +962,12 @@ nav li a{
   border: 1px solid rgba(251, 181, 99, 0.20);
   background: rgba(251, 181, 99, 0.05);
   }
-  .icon {
+  .icon-img {
       width: 48px;
   height: 48px;
   flex-shrink: 0;
   }
-  .card-stats {
+  .card-stat {
       color: #131318;
       font-size: 20px;
   }
@@ -975,7 +975,7 @@ nav li a{
       width: 271px;
       color: #5A5A5D;
   }
-  .care-1-2{
+  .card-1{
       display: block;
   }
   .card-3 {
@@ -1109,11 +1109,11 @@ nav li a{
       left: 70px;
       bottom: 115px;
   }
-  .section-5{
+  .simple-section{
       width: 375px;
       display: block;
   }
-  .a-simple {
+  .simple-1 {
       width: 248px;
       color: #131318;
       font-size: 20px;
@@ -1121,7 +1121,7 @@ nav li a{
       bottom: 150px;
       /* left: 60px; */
   }
-  .a-simple-p{
+  .simple-p{
       width: 335px;
       color: rgba(19, 19, 24, 0.70);
       font-size: 14px;
@@ -1158,14 +1158,14 @@ nav li a{
       bottom: 150px;
   }
   /*  */
-  .im-2200{
+  .img-view{
       width: 335px;
       height: 200px;
       flex-shrink: 0;
       border-radius: 16px;
 background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
   }
-  .section-6{
+  .newsletter-section{
       margin-top: 200px;
       display: block;
   }
@@ -1240,10 +1240,6 @@ background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%
       margin-top: -300px;
       width: 335px;
       height: 309px;
-  }
-  .footer-containar{
-
-
   }
   .TS-Travel {
       color: #131318;
