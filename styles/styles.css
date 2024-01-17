@@ -458,7 +458,6 @@ nav li a{
   font-size: 24px;
   position: relative;
   left: 50px;
-  /* top: 98px; */
 }
 .board-para{
   width: 452px;
@@ -466,7 +465,6 @@ nav li a{
   font-size: 16px;
   position: relative;
   left: 50px;
-  /* top: 100px; */
 }
 .price{
   color: #FF5400;
@@ -474,7 +472,6 @@ nav li a{
   font-size: 24px;
   position: relative;
   left: 50px;
-  /* top:90px; */
 
 }
 .price-box{
@@ -610,7 +607,6 @@ nav li a{
   left: 340px;
 }
 .Travel-com{
-  /* transform: rotate(-19.628deg); */
       color: #FFF;
   text-align: center;
   font-size: 24px;
@@ -633,31 +629,26 @@ nav li a{
   font-size: 24px;
 }
 .png-1{
-  /* background-color: #FF5400; */
   position: relative;
   top: 520px;
   left: 425px;
 }
 .png-2{
-  /* background-color: #FF5400; */
   position: relative;
   top: 525px;
   left: 360px;
 }
 .png-3{
-  /* background-color: #FF5400; */
   position: relative;
   top: 525px;
   left: 860px;
 }
 .png-4{
-  /* background-color: #FF5400; */
   position: relative;
   top: 525px;
   left: 800px;
 }
 .png-5{
-  /* background-color: #FF5400; */
   position: relative;
   top: 525px;
   left: 740px;
@@ -721,544 +712,533 @@ nav li a{
 /* @media screen related style */
 /* responsive for movile*/
 
-@media screen and (max-width: 600px) {
-  body{
-      width: 375px;
-  }
-  .exp-section{
-  }
-  .banner{
-      width: 335px;
-      height: 483px;
-  }
-  nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 50px;
+@media screen and (max-width:576px) {
+    body{
+        width: 375px;
+    }
+    .exp-section{
+    }
+    .banner{
+        width: 335px;
+        height: 483px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .ul-li{
+        width: 335px;
+        display: block;
+    }
+    .explore {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+    .exp-dis {
+        width: 304px;
+        color: #FFF;
+        font-size: 14px;
+        position: relative;
+        top: 50px;
+        left: 20px;
+    }
+    .button{
+        display: inline-flex;
+        width: 175px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        position: relative;
+        top: 50px;
+        left: 80px;
+    }
+    .section-2-ph{
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .popular-title {
+        font-size: 20px;
+    }
+    .list {
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        margin-top: 24px;
+    }
+    .Box {
+        width: 174px;
+        height: 52px;
+        position: relative;
+        bottom: 0px;
+        top: 0px;
+    }
+    .popular-1 {
+        width: 335px;
+        color: #5A5A5D;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .popular-section{
+        display: block;
+        width: 335px;
+    }
+    .container{
+    }
+    .container-pic{
+        width: 315px;
+        flex-shrink: 0;
+        padding: 0;
+        position: relative;
+        right: px;
+        left: 59px;
+    }
+    .destination {
+        margin-bottom: 50px;
+        color: #131318;
+        font-size: 20px;
+    }
+    .destination-dis {
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 14px;
+        position: relative;
+        bottom: 25px;
+        left: 0px;
+    }
+    .rectangle-5 {
+        width: 335px;
+        height: 176px;
+    }
+    .Maldives {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 1255px;
+        left: 110px;
+    }
+    .Indonesia {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 1110px;
+        left: 125px;
+    }
+    .Srilanka {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 953px;
+        left: 125px;
+    }
+    .North-America {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 815px;
+        left: 100px;
+    }
+    .Kashmir {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 680px;
+        left: 130px;
+    }
+    .Bandarban {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 397px;
+        left: 120px;
+    }
+    .Bangladesh {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        position: relative;
+        bottom: 532px;
+        left: 110px;
+    }
+    .row-1{
+        display: block;
+    }
+    .row-2{
+        display: block;
+    }
+    .row-3{
+        display: block;
+    }
+    .rectangle-8 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .rectangle-6 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .rectangle-7 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .rectangle-9 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .rectangle-11 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .re-10 {
+        width: 335px;
+        height: 175.393px;
+        flex-shrink: 0;
+    }
+    .destination {
+        color: #131318;
+    font-size: 20px;
+    }
+    .destination-1 {
+        margin-top: 100px;
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+    }
+    .why-choose-dis {
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 14px;
+        position: relative;
+        bottom: 25px;
+        padding: 20px 0px 0px 15px;
+    }
+    .card-2 {
+        width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    }
+    .icon-img {
+        width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    }
+    .card-stat {
+        color: #131318;
+        font-size: 20px;
+    }
+    .card-title {
+        width: 271px;
+        color: #5A5A5D;
+    }
+    .card-1{
+        display: block;
+    }
+    .card-3 {
+        width: 335px;
+        height: 289px;
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+        position: relative;
+        right: 300px;
+    }
+    .destination-2{
+        color: #131318;
+        font-size: 20px;
+        position: relative;
+        bottom: 60px;
+    }
+    .destination-paragraph-2{
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 14px;
+        position: relative;
+        bottom: 85px;
+        padding: 20px 0px 0px 15px;
+    }
+    .banner-1 {
+        width: 335px;
+        height: 500px;border-radius: 16px;
+    }
+    .banner-2 {
+        width: 335px;
+        height: 500px;border-radius: 16px;
+    }
+    .banner-3 {
+        width: 335px;
+        height: 500px;border-radius: 16px;
+    }
+    .board-1 {
+        width: 303px;
+        height: 297px;border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        position: relative;
+        left: 15px;
+        top: 190px;
+    }
+    .board-2 {
+        width: 303px;
+        height: 297px;border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        position: relative;
+        left: 15px;
+        top: 190px;
+    }
+    .board-3 {
+        width: 303px;
+        height: 297px;border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        position: relative;
+        left: 15px;
+        top: 190px;
+    }
+    /*  */
+  
+    .board-title {
+        color: #131318;
+        font-size: 20px;
+        position: relative;
+        left: 24px;
+        bottom: 130px;
+    }
+    .board-para {
+        width: 254px;
+        color: #5A5A5D;
+        font-size: 14px;
+        position: relative;
+        left: 24px;
+        bottom: 140px;
+    }
+    .price{
+        color: #FF5400;
+        font-size: 13px;
+         width: 130px;
+        position: relative;
+        left: 24px;
+        bottom: 145px;
+    }
+    .price-box {
+        width: 130px;
+        height: 40px;
+        position: relative;
+        left: 24px;
+        bottom: 185px;
+    }
+    .new-1{
+        display: block;
+    }
+    .frame-1{
+        position: relative;
+        left: -80px;
+        bottom: 40px;
+    }
+    .frame-2{
+        position: relative;
+        left: -80px;
+        bottom: 40px;
+    }
+    .frame-3{
+        position: relative;
+        left: 40px;
+        bottom: 90px;
+    }
+    .span-1{
+        position: relative;
+        left: -40px;
+        bottom: 65px;
+    }
+    .span-2{
+        position: relative;
+        left: -40px;
+        bottom: 65px;
+    }
+    .span-3{
+        position: relative;
+        left: 70px;
+        bottom: 115px;
+    }
+    .simple-section{
+        width: 375px;
+        display: block;
+    }
+    .simple-1 {
+        width: 248px;
+        color: #131318;
+        font-size: 20px;
+        position: relative;
+        bottom: 150px;
+    }
+    .simple-p{
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 14px;
+        position: relative;
+        bottom: 150px;
+    }
+    .See {
+        width: 174px;
+        height: 52px;
+        position: relative;
+        left: 100px;
+        bottom: 70px;
+    }
+    .list-1{
+        width: 335px;
+        color: #131318;
+        font-size: 14px;
+        position: relative;
+        left: -20px;
+        bottom: 150px;
+    }
+    .Box {
+        width: 174px;
+        height: 52px;
+        position: relative;
+        bottom: 180px;
+    }
+    .container-img-1 {
+        width: 335px;
+        height: 200px;
+        border-radius: 16px;
+        position: relative;
+        bottom: 150px;
+    }
+    .img-view{
+        width: 335px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    }
+    .newsletter-section{
+        margin-top: 200px;
+        display: block;
+    }
+    .container-newsletter {
+        width: 335px;
+        position: relative;
+        bottom: 400px;
+        right: 30oxpx;
+        background: #FFF;
+    }
+    .section-title-Newsletter {
+        color: #131318;
+        font-size: 20px;
+    }
+    .news-dis {
+        width: 270px;
+        color: #5A5A5D;
+        font-size: 14px;
+    }
+    .you-name {
+        width: 288px;
+        height: 52px;
+        border-radius: 8px;
+        position: relative;
+        left: 50px;
+    }
+    .Subscribe-Box {
+        width: 288px;
+        height: 52px;
+        border-radius: 8px;
+    }
+    .container-img-2 {
+        width: 335px;
+        height: 300px;
+        border-radius: 16px;
+        position: relative;
+        bottom: 350px;
+    }
+    .beauty-mountain{
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+    .footer-img {
+        width: 28.724px;
+        height: 33.516px;
+        position: relative;
+        left: 90px;
+        top: 50px;
+    }
+    .footer{
+        margin-top: -300px;
+        width: 335px;
+        height: 309px;
+    }
+    .ia-Travel {
+        color: #131318;
+        font-size: 21.543px;
+        font-weight: 800;position: relative;
+        bottom: 100px;
+    }
+    .Travel-span {
+        color: #FF5400;
+        font-size: 21.543px;
+    }
+    .last-dis {
+        width: 287px;
+        color: #5A5A5D;
+        font-size: 14px;
+        padding: 0px 20px;
+        position: relative;
+        bottom: 100px;
+    }
+    .social-link {
+        margin-top: 35px;
+        display: flex;
+        gap: 10px;
+        padding: 0 0 0 30px;
+    }
+    .oh{
+        width: 335px;
+        height: 342px;
+        position: relative;
+        top: 50px;
+    }
+    .las-step{
       flex-direction: column;
-  }
-  .ul-li{
-      width: 335px;
-      display: block;
-  }
-  .explore {
-      color: #FFF;
-      font-family: Mulish;
-      font-size: 22px;
-      font-style: normal;
-      font-weight: 800;
+      gap: 30px;
       text-align: center;
-      position: relative;
-      top: 50px;
   }
-  .exp-dis {
-      width: 304px;
-      color: #FFF;
-      font-size: 14px;
-      position: relative;
-      top: 50px;
-      left: 20px;
-  }
-  .button{
-      display: inline-flex;
-      width: 175px;
-      padding: 16px;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 16px;
-      position: relative;
-      top: 50px;
-      left: 80px;
-  }
-  .section-2-ph{
+  .hz{
       width: 335px;
-      color: rgba(19, 19, 24, 0.70);
-      font-size: 14px;
-      margin-top: 24px;
-      margin-bottom: 24px;
-  }
-  .popular-title {
-      font-size: 20px;
-  }
-  .list {
-      width: 335px;
-      color: rgba(19, 19, 24, 0.70);
-      font-size: 14px;
-      margin-top: 24px;
-  }
-  .Box {
-      width: 174px;
-      height: 52px;
-      position: relative;
-      bottom: 0px;
-      top: 0px;
-  }
-  .popular-1 {
-      width: 335px;
-      color: #5A5A5D;
-      font-size: 14px;
-      margin-top: 25px;
-  }
-  .popular-section{
-      display: block;
-      width: 335px;
-  }
-  .container{
-  }
-  .container-pic{
-      width: 315px;
-      /* height: 342px; */
-      flex-shrink: 0;
-      padding: 0;
-      position: relative;
-      right: px;
-      left: 59px;
-  }
-  .destination {
-      margin-bottom: 50px;
-      color: #131318;
-      font-size: 20px;
-  }
-  .destination-dis {
-      width: 335px;
-      color: rgba(19, 19, 24, 0.70);
-      text-align: center;
-      font-size: 14px;
-      position: relative;
-      bottom: 25px;
-      left: 0px;
-  }
-  .rectangle-5 {
-      width: 335px;
-      height: 176px;
-  }
-  .Maldives {
-      /* background-color: #FF5400; */
-      color: #FFF;
-      font-size: 20px;
-      font-weight: 800;
-      position: relative;
-      bottom: 1255px;
-      left: 110px;
-  }
-  .Indonesia {
-      /* background-color: #FF5400; */
-      color: #FFF;
-      font-size: 20px;
-      font-weight: 800;
-      position: relative;
-      bottom: 1110px;
-      left: 125px;
-  }
-  .Srilanka {
-      /* background-color: #FF5400; */
-      color: #FFF;
-      font-size: 20px;
-      font-weight: 800;
-      position: relative;
-      bottom: 953px;
-      left: 125px;
-  }
-  .North-America {
-      /* background-color: #FF5400; */
-      color: #FFF;
-      font-size: 20px;
-      font-weight: 800;
-      position: relative;
-      bottom: 815px;
-      left: 100px;
-  }
-  .Kashmir {
-      /* background-color: #FF5400; */
-      color: #FFF;
-      font-size: 20px;
-      font-weight: 800;
-      position: relative;
-      bottom: 680px;
-      left: 130px;
-  }
-  .Bandarban {
-      /* background-color: #FF5400; */
-      color: #FFF;
-      font-size: 20px;
-      font-weight: 800;
-      position: relative;
-      bottom: 397px;
-      left: 120px;
-  }
-  .Bangladesh {
-      /* background-color: #FF5400; */
-      color: #FFF;
-      font-size: 20px;
-      font-weight: 800;
-      position: relative;
-      bottom: 532px;
-      left: 110px;
-  }
-  .row-1{
-      display: block;
-  }
-  .row-2{
-      display: block;
-  }
-  .row-3{
-      display: block;
-  }
-  .rectangle-8 {
-      width: 335px;
-      height: 175.393px;
-      flex-shrink: 0;
-  }
-  .rectangle-6 {
-      width: 335px;
-      height: 175.393px;
-      flex-shrink: 0;
-  }
-  .rectangle-7 {
-      width: 335px;
-      height: 175.393px;
-      flex-shrink: 0;
-  }
-  .rectangle-9 {
-      width: 335px;
-      height: 175.393px;
-      flex-shrink: 0;
-  }
-  .rectangle-11 {
-      width: 335px;
-      height: 175.393px;
-      flex-shrink: 0;
-  }
-  .re-10 {
-      width: 335px;
-      height: 175.393px;
-      flex-shrink: 0;
-  }
-  .destination {
-      color: #131318;
-  font-size: 20px;
-  }
-  .destination-1 {
-      margin-top: 100px;
-      color: #131318;
-      text-align: center;
-      font-size: 20px;
-  }
-  .why-choose-dis {
-      width: 309px;
-      color: rgba(19, 19, 24, 0.70);
-      text-align: center;
-      font-size: 14px;
-      position: relative;
-      bottom: 25px;
-      padding: 20px 0px 0px 15px;
-  }
-  .card-2 {
-      width: 335px;
-  height: 289px;
-  flex-shrink: 0;
-  border-radius: 16px;
-  border: 1px solid rgba(251, 181, 99, 0.20);
-  background: rgba(251, 181, 99, 0.05);
-  }
-  .icon-img {
-      width: 48px;
-  height: 48px;
-  flex-shrink: 0;
-  }
-  .card-stat {
-      color: #131318;
-      font-size: 20px;
-  }
-  .card-title {
-      width: 271px;
-      color: #5A5A5D;
-  }
-  .card-1{
-      display: block;
-  }
-  .card-3 {
-      width: 335px;
-      height: 289px;
-      border-radius: 16px;
-      border: 1px solid rgba(233, 68, 68, 0.20);
-      background: rgba(233, 68, 68, 0.05);
-      position: relative;
-      right: 300px;
-  }
-  .destination-2{
-      color: #131318;
-      font-size: 20px;
-      position: relative;
-      bottom: 60px;
-  }
-  .destination-paragraph-2{
-      width: 309px;
-      color: rgba(19, 19, 24, 0.70);
-      text-align: center;
-      font-size: 14px;
-      position: relative;
-      bottom: 85px;
-      padding: 20px 0px 0px 15px;
-  }
-  .banner-1 {
-      width: 335px;
-      height: 500px;border-radius: 16px;
-  }
-  .banner-2 {
-      width: 335px;
-      height: 500px;border-radius: 16px;
-  }
-  .banner-3 {
-      width: 335px;
-      height: 500px;border-radius: 16px;
-  }
-  .board-1 {
-      width: 303px;
-      height: 297px;border-radius: 16px;
-      border: 2px solid #FFF;
-      background: rgba(255, 255, 255, 0.80);
-      backdrop-filter: blur(2.5px);
-      position: relative;
-      left: 15px;
-      top: 190px;
-  }
-  .board-2 {
-      width: 303px;
-      height: 297px;border-radius: 16px;
-      border: 2px solid #FFF;
-      background: rgba(255, 255, 255, 0.80);
-      backdrop-filter: blur(2.5px);
-      position: relative;
-      left: 15px;
-      top: 190px;
-  }
-  .board-3 {
-      width: 303px;
-      height: 297px;border-radius: 16px;
-      border: 2px solid #FFF;
-      background: rgba(255, 255, 255, 0.80);
-      backdrop-filter: blur(2.5px);
-      position: relative;
-      left: 15px;
-      top: 190px;
-  }
-  /*  */
-
-  .board-title {
-      color: #131318;
-      font-size: 20px;
-      position: relative;
-      left: 24px;
-      bottom: 130px;
-  }
-  .board-para {
-      width: 254px;
-      color: #5A5A5D;
-      font-size: 14px;
-      position: relative;
-      left: 24px;
-      bottom: 140px;
-  }
-  .price{
-      color: #FF5400;
-      font-size: 13px;
-       width: 130px;
-      position: relative;
-      left: 24px;
-      bottom: 145px;
-  }
-  .price-box {
-      width: 130px;
-      height: 40px;
-      position: relative;
-      left: 24px;
-      bottom: 185px;
-  }
-  .new-1{
-      display: block;
-  }
-  .frame-1{
-      position: relative;
-      left: -80px;
-      bottom: 40px;
-  }
-  .frame-2{
-      position: relative;
-      left: -80px;
-      bottom: 40px;
-  }
-  .frame-3{
-      position: relative;
-      left: 40px;
-      bottom: 90px;
-  }
-  .span-1{
-      position: relative;
-      left: -40px;
-      bottom: 65px;
-  }
-  .span-2{
-      position: relative;
-      left: -40px;
-      bottom: 65px;
-  }
-  .span-3{
-      position: relative;
-      left: 70px;
-      bottom: 115px;
-  }
-  .simple-section{
-      width: 375px;
-      display: block;
-  }
-  .simple-1 {
-      width: 248px;
-      color: #131318;
-      font-size: 20px;
-      position: relative;
-      bottom: 150px;
-      /* left: 60px; */
-  }
-  .simple-p{
-      width: 335px;
-      color: rgba(19, 19, 24, 0.70);
-      font-size: 14px;
-      position: relative;
-      bottom: 150px;
-      /* left: 50px; */
-  }
-  .See {
-      width: 174px;
-      height: 52px;
-      position: relative;
-      left: 100px;
-      bottom: 70px;
-  }
-  .list-1{
-      width: 335px;
-      color: #131318;
-      font-size: 14px;
-      position: relative;
-      left: -20px;
-      bottom: 150px;
-  }
-  .Box {
-      width: 174px;
-      height: 52px;
-      position: relative;
-      bottom: 180px;
-  }
-  .container-img-1 {
-      width: 335px;
-      height: 200px;
-      border-radius: 16px;
-      position: relative;
-      bottom: 150px;
-  }
-  /*  */
-  .img-view{
-      width: 335px;
-      height: 200px;
-      flex-shrink: 0;
-      border-radius: 16px;
-background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
-  }
-  .newsletter-section{
-      margin-top: 200px;
-      display: block;
-  }
-  .container-newsletter {
-      width: 335px;
-      position: relative;
-      bottom: 400px;
-      right: 30oxpx;
-      background: #FFF;
-  }
-  .section-title-Newsletter {
-      color: #131318;
-      font-size: 20px;
-  }
-  .news-dis {
-      width: 270px;
-      color: #5A5A5D;
-      font-size: 14px;
-  }
-  .you-name {
-      width: 288px;
-      height: 52px;
-      border-radius: 8px;
-      position: relative;
-      left: 50px;
-  }
-  .Subscribe-Box {
-      width: 288px;
-      height: 52px;
-      border-radius: 8px;
-  }
-  .container-img-2 {
-      width: 335px;
-      height: 300px;
-      border-radius: 16px;
-      position: relative;
-      bottom: 350px;
-  }
-  .beauty-mountain{
-      width: 335px;
-      height: 300px;
-      flex-shrink: 0;
-      border-radius: 16px;
-  }
-  .footer-img {
-      width: 28.724px;
-      height: 33.516px;
-      position: relative;
-      left: 90px;
-      top: 50px;
-  }
-  .footer{
-      margin-top: -300px;
-      width: 335px;
-      height: 309px;
-  }
-  .ia-Travel {
-      color: #131318;
-      font-size: 21.543px;
-      font-weight: 800;position: relative;
-      bottom: 100px;
-  }
-  .Travel-span {
-      color: #FF5400;
-      font-size: 21.543px;
-  }
-  .last-dis {
-      width: 287px;
-      color: #5A5A5D;
-      font-size: 14px;
-      padding: 0px 20px;
-      position: relative;
-      bottom: 100px;
-  }
-  .social-link {
-      margin-top: 35px;
-      display: flex;
-      gap: 10px;
-      padding: 0 0 0 30px;
-  }
-  .oh{
-      width: 335px;
-      height: 342px;
-      position: relative;
-      top: 50px;
-  }
-  .las-step{
-    flex-direction: column;
-    gap: 30px;
-    text-align: center;
-}
-.hz{
-    width: 335px;
-    padding: 0 0 0 0;
-    }
+      padding: 0 0 0 0;
+   }
 }
